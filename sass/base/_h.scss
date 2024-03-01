@@ -1,0 +1,43 @@
+p{
+   font-family: 'Work Sans', sans-serif;   
+}
+h1{
+   font-size:clamp(1rem, -1.292rem + 7.333vw, 3.75rem);
+   font-family: 'Work Sans', sans-serif;
+   color: rgba(255, 0, 0, var(--transparence--h1));
+   letter-spacing: 4px;
+}
+h2{
+   font-size:clamp(1rem, -.4286rem + 4.5714vw, 2rem);
+   font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif; 
+  color: rgb(61, 66, 155, var(--transparence--section));
+}
+h3{
+   font-size: clamp(0.875rem, -0.125rem + 3.2vw, 1.875rem);
+   font-family: 'Inter', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Work Sans', sans-serif;
+color: rgb(255, 0, 255, var(--transparence--section));
+}
+h4{
+   font-size: clamp(0.875rem, -0.125rem + 3.2vw, 1.875rem);
+   font-family: 'Inter', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Work Sans', sans-serif;
+color: rgb(255, 0, 255, var(--transparence--section));
+}
+h5{
+   font-size: clamp(0.875rem, -0.125rem + 3.2vw, 1.875rem);
+   font-family: 'Inter', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Work Sans', sans-serif;
+color: rgb(255, 0, 255, var(--transparence--section));
+}
+h6{
+   font-size: clamp(0.875rem, -0.125rem + 3.2vw, 1.875rem);
+   font-family: 'Inter', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Work Sans', sans-serif;
+color: rgb(255, 0, 255, var(--transparence--section));
+}

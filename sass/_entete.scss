@@ -1,0 +1,14 @@
+.entete_header {
+    background-image: url("images/node_js.png");
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  
+  @media screen and (max-width:700px) {
+    .entete_header {
+      background-image: url("images/node_js.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size:contain;
+    }
+  }

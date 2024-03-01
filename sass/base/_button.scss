@@ -1,0 +1,15 @@
+button{
+    font-size: clamp(1.125rem, 0.5rem + 2vw, 1.875rem);
+    padding: 12px 24px;
+    position: absolute;
+    left: 20%;
+    bottom:0 ;
+    background: linear-gradient(to right, rgb(255, 255, 187), rgb(136, 210, 213));
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+button:hover{
+    background: linear-gradient(rgb(194, 227, 194), rgb(95, 184, 211));
+    color: rgb(48, 102, 183);
+    transform: translateY(-10px);
+}

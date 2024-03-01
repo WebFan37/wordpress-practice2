@@ -1,0 +1,18 @@
+.digonal{
+  position: relative;
+  isolation: isolate;
+  min-height:4vh;
+}
+.diagonal::before{
+  position: absolute;
+  content:"";
+  // left: 0;
+  // top: 0;
+  // right: 0;
+  // bottom: 0;
+inset: 0;
+
+  background: linear-gradient(120deg, var(--couleur--arrier-diagonal), white);
+  z-index: -1;
+  transform: skewY(-4deg);
+}
