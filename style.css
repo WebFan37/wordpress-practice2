@@ -266,4 +266,19 @@ a:hover {
   background: linear-gradient(120deg, var(--couleur--arrier-diagonal), white);
   z-index: -1;
   transform: skewY(-4deg);
+}
+
+.cours {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.carte {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 0 1 35%;
+  border: 1px solid #6ca4b8;
 }/*# sourceMappingURL=style.css.map */
