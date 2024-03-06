@@ -1,12 +1,14 @@
 /*STYLE MENU PRINCIPAL*/
 
 .menu-principal-container{ //nav
-    background:linear-gradient(rgb(208, 143, 208), var(--couleur--arrier-accueil)) ;
+    
     border-radius: 30px;
     .menu{//ul
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
+        align-items: center;
         list-style-type: none;
+        height: 5vh;
     }
     .menu-item{ //li
         flex: 1 0 80px
@@ -19,11 +21,12 @@
 
 @media screen and (max-width:700px) {
     .menu-principal-container{
-        height: auto;
+        // height: auto;
         .menu{
             flex-direction: column;
             align-items: center;
             gap: 1rem;
+            height: auto;
         }
         .menu-item{
             flex: 1 0 100%;
