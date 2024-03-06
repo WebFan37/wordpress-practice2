@@ -39,6 +39,10 @@ Text Domain: theme-Janne
   --couleur--arrier-galerie: var(--couleur--arrier-accueil);
 }
 
+.carte {
+  --couleur--arrier:hsl(var(--t1), var(--s--arriere), 10%);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -279,6 +283,10 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  flex: 0 1 35%;
+  align-items: center;
+  text-align: center;
+  flex: 1 0 275px;
+  padding: 1rem;
   border: 1px solid #6ca4b8;
+  background-color: var(--couleur--arrier);
 }/*# sourceMappingURL=style.css.map */
