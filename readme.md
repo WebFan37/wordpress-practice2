@@ -1,23 +1,6 @@
 # JANNE ZHANG ELLISON
-### LAB 03 
-- Il consiste à intégrer le page web dans WordPress via XAMPP et PHP
-
-### Progression
-- Adaptation du theme exercice 1
-- Creation index.php
-- Creation branch lab03
-- min 3 commits
-- README
-- Decomposition titre chaque cours:
-    - sigle du cours
-    - titre du cours
-    - duree du cours
-
-- Garder les 30 premiers mots de la description du cours
-
-### Section galerie affichera la liste des cours du TIM en 4 colonnes
-- liste s'adapter aux differents largeurs
-- carte de cours formates en utilisant flex box
+### LAB 04
+- Il consiste à creer un menu de WordPress
 
 ### GitHub Pages
 - https://webfan37.github.io/4W4-2024-gr1/
