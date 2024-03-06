@@ -62,12 +62,12 @@ body {
 .global > section,
 .global > header,
 .global > footer {
-  flex: 0 1 1200px;
+  flex: 0 1 1100px;
   padding: 3rem 1rem;
   border-radius: 15px;
 }
 
-.global > header {
+.global > .hero {
   flex: 1;
 }
 
@@ -111,14 +111,14 @@ body {
   min-height: 40vh;
 }
 
-.entete_header {
+.hero {
   background-image: url("images/node_js.png");
   background-repeat: no-repeat;
   background-position: right;
 }
 
 @media screen and (max-width: 700px) {
-  .entete_header {
+  .hero {
     background-image: url("images/node_js.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -282,10 +282,10 @@ a:hover {
 .carte {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   text-align: center;
-  flex: 1 0 275px;
+  flex: 1 0 225px;
   padding: 1rem;
   border: 1px solid #6ca4b8;
   background-color: var(--couleur--arrier);

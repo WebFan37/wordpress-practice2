@@ -1,12 +1,11 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Theme</title>
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/normalize.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
@@ -27,87 +26,7 @@
             </svg>
         </div>
 
-                    <div class="carte">
-                <h3> tout le m</h3>
-                <p>Bonjour</p>
-                <p>onjour tout le monde </p>
-                <p>Bienvenue sur WordPress. Ceci est votre premier article. Modifiez-le ou supprimez-le, puis commencez à écrire !</p>
-                           
-            </div> 
-        
-                        <div class="carte">
-                <h3>	Imagerie 3D </h3>
-                <p>582-3M5</p>
-                <p>75h</p>
-                <p>Dans ce cours, l’étudiant est initié au monde de l’imagerie de synthèse. Il est amené à maîtriser les outils et les fonctionnalités de base d’un logiciel de production 3D pour…</p>
-                           
-            </div> 
-        
-                        <div class="carte">
-                <h3>	Création de jeu 2D </h3>
-                <p>582-2J2</p>
-                <p>60h</p>
-                <p>Dans ce cours, l’étudiant approfondit la programmation graphique et s’initie aux concepts de base d'un moteur de jeu. Le cours permet d'approfondir la maîtrise de la structure d'affichage ainsi que…</p>
-                           
-            </div> 
-        
-                        <div class="carte">
-                <h3>	Animation et interactivité Web </h3>
-                <p>582-2W2</p>
-                <p>75h</p>
-                <p>Ce cours permet à l'étudiant d'acquérir les compétences de base requises pour programmer l'interactivité de l'interface-utilisateur d'une application multimédia en ligne. Les notions abordées dans les cours « 582-1W1 Mise…</p>
-                           
-            </div> 
-        
-                        <div class="carte">
-                <h3> Conception graphique et imagerie vectorielle </h3>
-                <p>582-2M4</p>
-                <p>90h</p>
-                <p>Dans ce cours, l’étudiant poursuit l’apprentissage des notions liées à la conception, à la communication graphique et au traitement des images fixes vectorielles. L'étudiant développe un concept créatif décliné en…</p>
-                           
-            </div> 
-        
-                        <div class="carte">
-                <h3> Effets spéciaux et animation </h3>
-                <p>582-2M3</p>
-                <p>60h</p>
-                <p>Ce cours permet d'approfondir la formation de l’étudiant en matière de traitement d’images en mouvement et de traitement sonore. L’étudiant poursuit son apprentissage des techniques de prise de vues avec…</p>
-                           
-            </div> 
-        
-                        <div class="carte">
-                <h3> Animation et interactivité en jeu </h3>
-                <p>582-1J1</p>
-                <p>75h</p>
-                <p>Ce cours est consacré aux concepts de base nécessaires à la création d’un jeu numérique. Le cours porte, d’une part, sur l’animation des médias : l’étudiant y apprend à importer…</p>
-                           
-            </div> 
-        
-                        <div class="carte">
-                <h3> Mise en page Web </h3>
-                <p>582-1W1</p>
-                <p>75h</p>
-                <p>Dans ce cours, l'étudiant apprend les techniques de mise en page Web en utilisant les langages de balisage et de feuilles de styles. L'étudiant apprend également à analyser et schématiser…</p>
-                           
-            </div> 
-        
-                        <div class="carte">
-                <h3> Conception graphique et imagerie matricielle </h3>
-                <p>582-1M2</p>
-                <p>90h</p>
-                <p>Ce cours initie l'étudiant aux rudiments de la conception et de la communication graphique ainsi qu'au traitement des images fixes matricielles. On y aborde les notions de base sur le…</p>
-                           
-            </div> 
-        
-                        <div class="carte">
-                <h3> Création vidéo </h3>
-                <p>582-1M1</p>
-                <p>75h</p>
-                <p>3-2-3 2,67 unités Aucun préalable. Ce cours initie l’étudiant au traitement des images en mouvement, au traitement du son ainsi qu'aux bases de la scénarisation linéaire. L’étudiant apprend à utiliser…</p>
-                           
-            </div> 
-        
-                             
+         
     </div>
     <div id="accueil" class="global">
         <section>
@@ -125,14 +44,33 @@
         
     </div>
     <div id="evenement" class="global diagonal">
-        <section>
-            <h2>Évenement</h2>
-            <h4>
-            Woohoo ! Vous êtes sur la page evenement
+        <section class="cours">
+
+
             
-            </h4>
-            <p><a href="https://github.com/WebFan37?tab=repositories">Mon GitHub repositories</a>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore sapiente soluta deleniti maxime voluptates distinctio dignissimos amet! Quis atque, necessitatibus quaerat, ex nostrum maiores, possimus placeat explicabo in odit labore.</p>
+        <?php 
+        
+            if(have_posts()):
+                while(have_posts()): the_post();
+                $titre = get_the_title();
+                $sigle = substr($titre, 0, 7);
+                $postion_parenthese = strpos($titre, '(');
+                $duree = substr($titre, $postion_parenthese+1, -1);
+
+                $titre = substr($titre, 7, $postion_parenthese-7);
+                // strpos()
+            ?>
+            <div class="carte">
+                <h3><?php echo $titre ?></h3>
+                <p><?php echo $sigle ?></p>
+                <p><?php echo $duree ?></p>
+                <p><?php echo wp_trim_words(get_the_content(),30); ?></p>
+                           
+            </div> 
+        
+            <?php endwhile ?>
+        <?php endif ?>
+            
                 
 
                 
