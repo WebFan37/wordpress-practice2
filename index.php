@@ -12,6 +12,11 @@
 
 </head>
 <body>
+    <nav id="menu" class="global">
+        <header class="menu_header">
+            <?php wp_nav_menu(array("container" => "nav")); ?>
+        </header>
+</nav>
     <div id="entete" class="global">
         <header class="entete_header">
             <h1>THÈME PRINCIPAL</h1>

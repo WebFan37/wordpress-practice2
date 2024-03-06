@@ -1,0 +1,33 @@
+/*STYLE MENU PRINCIPAL*/
+
+.menu-principal-container{ //nav
+    background:linear-gradient(rgb(208, 143, 208), var(--couleur--arrier-accueil)) ;
+    border-radius: 30px;
+    .menu{//ul
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+    }
+    .menu-item{ //li
+        flex: 1 0 80px
+    }
+    .menu-item a{ // li a
+    color: white;
+    text-decoration: none;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .menu-principal-container{
+        height: auto;
+        .menu{
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+        }
+        .menu-item{
+            flex: 1 0 100%;
+        }
+    }
+    
+}

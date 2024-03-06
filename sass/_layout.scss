@@ -25,10 +25,15 @@ body{
 .global > .hero{
     flex: 1;
 }
+.menu_header{
+    background: linear-gradient(var(--couleur--arrier-entete), var(--couleur--arrier-accueil));
+}
 
 #entete, #footer{
     min-height: 10vh;
+    background: linear-gradient(var(--couleur--arrier-entete), var(--couleur--arrier-accueil));
 }
+
 #entete{
 background: linear-gradient(var(--couleur--arrier-accueil), var(--couleur--arrier-entete));
 color: var(--couleur--entete);
