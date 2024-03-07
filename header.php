@@ -13,7 +13,15 @@
 </head>
 <body>
     <div id="menu" class="global">
+    
         <header class="menu_header">
+            
+            <input type="checkbox" name="" id="check-menu">
+            <label id="burger" for="check-menu">
+                <svg id="menu-button" width="35" height="35" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" color="#FFF"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+            </label>
+           
+
             <?php wp_nav_menu(array("container" => "nav")); ?>
         </header>
 </div>

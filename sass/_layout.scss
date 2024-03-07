@@ -27,8 +27,10 @@ body{
 }
 .menu_header{
     background: linear-gradient(var(--couleur--arrier-entete), var(--couleur--arrier-accueil));
+     position: relative;
 }
 #menu{
+   
     background:linear-gradient(rgb(255, 206, 255), var(--couleur--arrier-accueil)) ;
 }
 #entete, #footer{
