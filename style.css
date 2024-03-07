@@ -320,13 +320,20 @@ a:hover {
     height: auto;
     opacity: 0;
     transition: opacity 1s;
+    flex-wrap: wrap;
   }
 }
 .menu-principal-container .menu-item {
-  flex: 1 0 80px;
+  flex: 1 0 300px;
+}
+@media screen and (min-width: 700px) {
+  .menu-principal-container .menu-item {
+    flex: 1 0 100px;
+  }
 }
 .menu-principal-container .menu-item a {
   color: white;
+  text-align: center;
   text-decoration: none;
   font-family: "Madimi One", sans-serif;
   font-weight: 400;

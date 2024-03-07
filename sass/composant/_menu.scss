@@ -11,6 +11,13 @@
             opacity: 0;
             transition: opacity 1.0s;
             
+            // position: absolute;
+            // top: 5%;
+            // left: 5%;
+            // width: 40%;
+            // flex-direction:column;
+            flex-wrap: wrap;
+
         }
 
         display: flex;
@@ -22,10 +29,15 @@
         border-radius: 10px;
     }
     .menu-item{ //li
-        flex: 1 0 80px
+        flex: 1 0 300px;
+        @media screen and (min-width: 700px) {
+            flex: 1 0 100px
+        }
+
     }
     .menu-item a{ // li a
     color: white;
+    text-align: center;
     text-decoration: none;
     font-family: "Madimi One", sans-serif;
         font-weight: 400;
