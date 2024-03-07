@@ -1,6 +1,8 @@
 # JANNE ZHANG ELLISON
 ### LAB 04
 - Il consiste à creer un menu de WordPress
+- Formatage de menu style css
+- CREATION HEADER PHP et TEMPLATE
 
 ### GitHub Pages
 - https://webfan37.github.io/4W4-2024-gr1/

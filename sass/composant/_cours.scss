@@ -8,7 +8,7 @@
 .carte{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
     flex: 1  0 calc(900px/4);//

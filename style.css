@@ -40,7 +40,7 @@ Text Domain: theme-Janne
 }
 
 .carte {
-  --couleur--arrier:hsl(var(--t1), var(--s--arriere), 10%);
+  --couleur--arrier:hsl(var(--t1), var(--s--arriere), 35%);
 }
 
 * {
@@ -292,7 +292,7 @@ a:hover {
 .carte {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   text-align: center;
   flex: 1 0 225px;

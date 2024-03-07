@@ -66,10 +66,10 @@
                 // strpos()
             ?>
             <div class="carte">
-                <h3><?php echo $titre ?></h3>
-                <p><?php echo $sigle ?></p>
-                <p><?php echo $duree ?></p>
-                <p><?php echo wp_trim_words(get_the_content(),30); ?></p>
+                <h2><?php echo $titre ?></h2>
+                <h4><?php echo $sigle ?></h4>
+                <p><?php echo wp_trim_words(get_the_content()); ?></p>
+                <h5><?php echo "Durée:", $duree ?></h5>
                            
             </div> 
         
