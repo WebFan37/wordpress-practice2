@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
-<h1>WHICH ONE ??</h1>
+<h1>FRONT-PAGE TEST</h1>
+
     <div id="entete" class="global">
         <header class="entete_header">
             <h1>THÈME PRINCIPAL</h1>
