@@ -13,7 +13,7 @@
                     <div class="carte">
                         <h2><?php the_title(); ?></h2>
                         <p><?php echo wp_trim_words(get_the_content()); ?></p>
-                        <?php the_category(); ?><!---->
+                        <?php echo "Catégorie: ",the_category(); ?><!---->
                         <a href="<?php the_permalink(); ?>">SAVOIR PLUS</a>
                     </div> 
                 
