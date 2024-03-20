@@ -43,9 +43,6 @@
     <div id="galerie" class="global">
         <section>
             <h2>Galerie</h2>
-            <h5>
-            Woohoo ! Vous êtes sur la page galerie
-        </h5>
         <p>La page galerie vous offre une vue globale sur les photos le plus incroyable dans le voyage ! Apprécie les ! Ne manquer pas les évenements !
 
         </p>

@@ -4,6 +4,16 @@
     background-position: right;
     
 }
+.menu-fin{
+    display: flex;
+    justify-content: space-around;
+}
+.menu-fin ul{
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    gap: 0.75rem;
+}
   
   @media screen and (max-width:700px) {
     .footer_header {
@@ -11,5 +21,9 @@
       background-repeat: no-repeat;
       background-position: center;
       background-size: 300px ;
+    }
+    .menu-fin{
+        flex-direction: column;
+        align-items: flex-start;
     }
   }
