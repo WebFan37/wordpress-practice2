@@ -2,20 +2,9 @@
 
 <!-- <h1>FRONT-PAGE TEST</h1> -->
 
-    <div id="entete" class="global">
-        <header class="entete_header">
-            <h1><?php echo get_bloginfo("name") ?></h1>
-            <h2><?php echo get_bloginfo("description") ?></h2><!---->
-            <h3>Conception d'interface et développement web</h3>
-        </header>
-        
-        <!--ICI POUR LA VAGUE-->
-        <?php get_template_part('composants-gabarit/vague'); ?>
-         
-    </div>
     <div id="accueil" class="global">
         <section>
-            <h2>Accueil</h2> 
+            <h2>DESTINATION PAR CATEGORIE</h2> 
             
             <div class="destinations">
                 <?php if(have_posts()):
@@ -34,12 +23,7 @@
         </section>
         
     </div>
-    <div id="evenement" class="global diagonal">
-       
-        <!-- ANOTHER VAGUE GOES HERE -->
-        <?php get_template_part('composants-gabarit/vague3'); ?>
-       
-    </div>
+   
     <div id="galerie" class="global">
         <section>
             <h2>Galerie</h2>

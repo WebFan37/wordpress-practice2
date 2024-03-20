@@ -283,7 +283,7 @@ a:hover {
 }
 
 /*composant*/
-.cours {
+.destinations {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -301,6 +301,12 @@ a:hover {
   border: 1px solid #6ca4b8;
   background-color: var(--couleur--arrier);
   border-radius: 10px;
+}
+
+.post-categories {
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
 }
 
 /*STYLE MENU PRINCIPAL*/

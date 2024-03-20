@@ -29,7 +29,7 @@
         
     </div>
     <div id="evenement" class="global diagonal">
-        <section class="cours">
+        <section class="destinations">
 
 
             
