@@ -7,7 +7,7 @@
             <p>Le menu de la fin du page vous offre des liens pour aller voir dans chaque catégories différentes</p>
             <div class="menu-fin">
                 <ul>
-                    <li><a href="#">LIEN 1</a></li>
+                    <li><a href="http://localhost/4W4/">HOME/ACCUEIL</a></li>
                     <li><a href="#">LIEN 2</a></li>
                     <li><a href="#">LIEN 3</a></li>
                     <li><a href="#">LIEN 4</a></li>

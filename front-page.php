@@ -15,8 +15,7 @@
     </div>
     <div id="accueil" class="global">
         <section>
-            <h2>Accueil</h2> 
-            
+            <h2>DESTINATIONS POPULAIRES</h2> 
             <div class="destinations">
                 <?php if(have_posts()):
                     while(have_posts()): the_post(); ?>
