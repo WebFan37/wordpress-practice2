@@ -5,7 +5,7 @@
     <div id="entete" class="global">
         <header class="entete_header">
             <h1><?php echo get_bloginfo("name") ?></h1>
-            <h2><?php echo get_bloginfo("description") ?></h2><!---->
+            <h2><?php echo get_bloginfo("description") ?></h2>
             <h3>Conception d'interface et développement web</h3>
         </header>
         
@@ -24,7 +24,7 @@
                     <div class="carte">
                         <h2><?php the_title(); ?></h2>
                         <p><?php echo wp_trim_words(get_the_content()); ?></p>
-                        <?php the_category(); ?><!---->
+                        <?php the_category(); ?>
                         <a href="<?php the_permalink(); ?>">SAVOIR PLUS</a>
                     </div> 
                 
