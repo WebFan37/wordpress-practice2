@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<h1>FRONT-PAGE TEST</h1>
+<!-- <h1>FRONT-PAGE TEST</h1> -->
 
     <div id="entete" class="global">
         <header class="entete_header">
@@ -46,7 +46,9 @@
             <h5>
             Woohoo ! Vous êtes sur la page galerie
         </h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus vel perferendis laborum ipsum nesciunt dolorum. Voluptatem atque quos harum animi nihil corrupti sed, quae quam facilis a commodi eligendi.</p>
+        <p>La page galerie vous offre une vue globale sur les photos le plus incroyable dans le voyage ! Apprécie les ! Ne manquer pas les évenements !
+            
+        </p>
 
        
         </section>
