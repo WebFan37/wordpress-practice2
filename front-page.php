@@ -6,7 +6,7 @@
         <header class="entete_header">
             <h1><?php echo get_bloginfo("name") ?></h1>
             <h2><?php echo get_bloginfo("description") ?></h2>
-            <h3>Conception d'interface et développement web</h3>
+            <!-- <h3>Conception d'interface et développement web</h3> -->
         </header>
         
         <!--ICI POUR LA VAGUE-->
@@ -39,7 +39,7 @@
         <?php get_template_part('composants-gabarit/vague3'); ?>
        
     </div>
-    <div id="galerie" class="global">
+    <div id="galerie" class="global diagonal">
         <section>
             <h2>Galerie</h2>
         <p>La page galerie vous offre une vue globale sur les photos le plus incroyable dans le voyage ! Apprécie les ! Ne manquer pas les évenements !

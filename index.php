@@ -1,6 +1,5 @@
 <?php get_header(); ?>
 
-<h1>WHICH ONE ??</h1>
     <div id="entete" class="global">
         <header class="entete_header">
             <h1>THÈME PRINCIPAL</h1>
@@ -13,7 +12,7 @@
     <?php get_template_part('composants-gabarit/vague'); ?>
          
     </div>
-    <div id="accueil" class="global">
+    <div id="accueil" class="global diagonal">
         <section>
             <h2>Accueil</h2>
             <h3>

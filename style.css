@@ -56,19 +56,19 @@ Text Domain: theme-Janne
 }
 
 .clr-primaire-200 {
-  color: hsl(220, 100%, 60%);
+  color: hsl(206, 95%, 59%);
 }
 
 .bck-primaire-200 {
-  background-color: hsl(220, 100%, 60%);
+  background-color: hsl(206, 95%, 59%);
 }
 
 .clr-primaire-300 {
-  color: hsl(220, 100%, 30%);
+  color: hsl(211, 100%, 30%);
 }
 
 .bck-primaire-300 {
-  background-color: hsl(220, 100%, 30%);
+  background-color: hsl(211, 100%, 30%);
 }
 
 .clr-primaire-400 {
@@ -88,19 +88,19 @@ Text Domain: theme-Janne
 }
 
 .clr-secondaire-200 {
-  color: hsl(40, 100%, 50%);
+  color: hsl(41, 100%, 65%);
 }
 
 .bck-secondaire-200 {
-  background-color: hsl(40, 100%, 50%);
+  background-color: hsl(41, 100%, 65%);
 }
 
 .clr-secondaire-300 {
-  color: hsl(40, 100%, 30%);
+  color: hsl(40, 61%, 40%);
 }
 
 .bck-secondaire-300 {
-  background-color: hsl(40, 100%, 30%);
+  background-color: hsl(40, 61%, 40%);
 }
 
 .clr-secondaire-400 {
@@ -120,19 +120,19 @@ Text Domain: theme-Janne
 }
 
 .clr-ternaire-200 {
-  color: hsl(10, 100%, 50%);
+  color: hsl(10, 71%, 60%);
 }
 
 .bck-ternaire-200 {
-  background-color: hsl(10, 100%, 50%);
+  background-color: hsl(10, 71%, 60%);
 }
 
 .clr-ternaire-300 {
-  color: hsl(10, 100%, 30%);
+  color: hsl(10, 53%, 51%);
 }
 
 .bck-ternaire-300 {
-  background-color: hsl(10, 100%, 30%);
+  background-color: hsl(10, 53%, 51%);
 }
 
 .clr-ternaire-400 {
@@ -152,19 +152,19 @@ Text Domain: theme-Janne
 }
 
 .clr-vert-200 {
-  color: hsl(70, 100%, 50%);
+  color: hsl(70, 75%, 55%);
 }
 
 .bck-vert-200 {
-  background-color: hsl(70, 100%, 50%);
+  background-color: hsl(70, 75%, 55%);
 }
 
 .clr-vert-300 {
-  color: hsl(70, 100%, 30%);
+  color: hsl(70, 66%, 35%);
 }
 
 .bck-vert-300 {
-  background-color: hsl(70, 100%, 30%);
+  background-color: hsl(70, 66%, 35%);
 }
 
 .clr-vert-400 {
@@ -178,7 +178,7 @@ Text Domain: theme-Janne
 /*===Mixin de couleur===*/
 .clr-agencement-primaire {
   color: hsl(220, 100%, 85%);
-  background-image: linear-gradient(90deg, hsl(220, 100%, 15%), hsl(220, 100%, 60%));
+  background-image: linear-gradient(90deg, hsl(220, 100%, 15%), hsl(206, 95%, 59%));
 }
 
 .clr-agencement-secondaire {
@@ -231,7 +231,6 @@ body {
 
 #entete, #footer {
   min-height: 10vh;
-  background: linear-gradient(var(--couleur--arrier-entete), var(--couleur--arrier-accueil));
 }
 
 #entete {
@@ -264,7 +263,6 @@ body {
 }
 
 #footer {
-  background-color: var(--couleur--arrier-footer);
   color: var(--couleur--footer);
   position: relative;
   min-height: 40vh;

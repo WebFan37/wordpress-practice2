@@ -1,7 +1,7 @@
-<div id="footer" class="global">
+<div id="footer" class="global bck-ternaire-400">
         <!--CURVE HERE-->
         <?php get_template_part('composants-gabarit/curve'); ?>
-        <footer class="footer_header">
+        <footer class="footer_header ">
             <h2></h2>
             <h6>MENU DE LA FIN</h6>
             <p>Le menu de la fin du page vous offre des liens pour aller voir dans chaque catégories différentes</p>
