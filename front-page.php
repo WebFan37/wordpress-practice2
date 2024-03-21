@@ -74,7 +74,7 @@
 
             // Afficher les informations de la catégorie
             echo '<div class = "destinations">';
-            echo '<div class = carte>';
+            echo '<div class = "carte">';
             echo '<h2>' . $cat_name . '</h2>';
             echo '<p>' . $cat_description . '</p>';
             echo '<p> Nombre article ' .$cat_count. '</p>';
