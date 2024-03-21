@@ -1,5 +1,5 @@
 # JANNE ZHANG ELLISON
-### LAB05
+### LAB05 & EXERCICE 2
 - Il consiste d'integration du mapping.
 - Changement du titre et description
 - Destinations populaires dans accueil
