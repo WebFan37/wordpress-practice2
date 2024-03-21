@@ -9,7 +9,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: theme-Janne
 */
 
-@import "variables";
+/*Automated*/
+@import "useful/colors";
+@import "useful/automated-color";
+/*======*/
+
 @import "layout";
 @import "entete";
 @import "footer";

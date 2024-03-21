@@ -12,7 +12,7 @@
 
 </head>
 <body>
-    <div id="menu" class="global">
+    <div id="menu" class="global clr-agencement-primaire" >
     
         <header class="menu_header">
             <?php echo get_custom_logo() ?>
