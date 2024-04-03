@@ -1,13 +1,3 @@
 # JANNE ZHANG ELLISON
-### LAB05 & EXERCICE 2
-- Il consiste d'integration du mapping.
-- Changement du titre et description
-- Destinations populaires dans accueil
-- Ajout du menu fin footer
-- Affichage des cartes de categories
-    - Titre cate
-    - 10 premiers mot descr.
-    - Lien a la liste des destinations de cette categories
-    - nombre d'article pour categories
-
-- Creation github page
+### Travail Pratique 1
+- Il consiste du code amélioré du Lab04 et Lab05. Les contenus sont déjà changés. 
