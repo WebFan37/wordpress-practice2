@@ -36,17 +36,7 @@
     <div id="evenement" class="global diagonal">
        <section>
             <h2>CATÉGORIES</h2>
-            <div class="categories">
-            <?php if(have_posts()):
-                    while(have_posts()): the_post(); ?>
-
-                    <div class="carte-categorie">
-                        <p><?php the_category() ?></p>
-                    </div> 
-                
-                    <?php endwhile ?>
-                <?php endif ?>
-            </div>
+            <p>C'est à vous de mettre des modifications dans la page ! </p>
 
        </section>
     
@@ -56,7 +46,7 @@
     <div id="galerie" class="global diagonal">
         <section>
             <h2>Galerie</h2>
-        <p>La page galerie vous offre une vue globale sur les photos le plus incroyable dans le voyage ! Apprécie les ! Ne manquer pas les évenements !
+        <p>Cette page vous offre une vue globale sur les catégories incroyables dans le voyage ! Apprécie les ! N'oublie pas de cliquer pour visionner !
 
         </p>
 
@@ -68,7 +58,7 @@
         foreach ($categories as $category) {
             // Récupérer les informations de la catégorie
             $cat_name = $category->name;
-            $cat_description = wp_trim_words($category->description,10);
+            $cat_description = wp_trim_words($category->description,20);
             $cat_link = get_category_link($category->term_id);
             $cat_count = $category->count;
 

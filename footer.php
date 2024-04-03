@@ -8,21 +8,21 @@
             <div class="menu-fin">
                 <ul>
                     <li><a href="http://localhost/4W4/">HOME/ACCUEIL</a></li>
-                    <li><a href="#">LIEN 2</a></li>
-                    <li><a href="#">LIEN 3</a></li>
-                    <li><a href="#">LIEN 4</a></li>
+                    <li><a href="#">Croisière</a></li>
+                    <li><a href="#">Avions</a></li>
+                    <li><a href="#">Helicoptère</a></li>
                 </ul>
                 <ul>
-                    <li><a href="#">LIEN 5</a></li>
-                    <li><a href="#">LIEN 6</a></li>
-                    <li><a href="#">LIEN 7</a></li>
-                    <li><a href="#">LIEN 8</a></li>
+                    <li><a href="#">Accès numérique</a></li>
+                    <li><a href="#">Accès papier</a></li>
+                    <li><a href="#">Accès invisible</a></li>
+                    <li><a href="#">Point</a></li>
                 </ul>
                 <ul>
-                    <li><a href="#">LIEN 9</a></li>
-                    <li><a href="#">LIEN 10</a></li>
-                    <li><a href="#">LIEN 11</a></li>
-                    <li><a href="#">LIEN 12</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">YouTube</a></li>
+                    <li><a href="#">Snapchat</a></li>
                 </ul>
             </div>
         </footer>

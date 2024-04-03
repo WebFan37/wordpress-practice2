@@ -7,12 +7,17 @@
 .menu-fin{
     display: flex;
     justify-content: space-around;
+    gap: 1.5rem;
 }
 .menu-fin ul{
     display: flex;
     list-style-type: none;
     flex-direction: column;
+    align-items: center;
     gap: 0.75rem;
+    width: 100%;
+    height: auto;
+   
 }
   
   @media screen and (max-width:700px) {
@@ -25,5 +30,8 @@
     .menu-fin{
         flex-direction: column;
         align-items: flex-start;
+    }
+    .menu-fin ul{
+      align-items: flex-start;
     }
   }
