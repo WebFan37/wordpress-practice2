@@ -25,6 +25,10 @@
                     <li><a href="#">Snapchat</a></li>
                 </ul>
             </div>
+
+            <?php wp_nav_menu(array(
+                "menu" => "footer",
+                "container" => "nav")); ?>
         </footer>
         
     </div>

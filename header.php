@@ -23,6 +23,8 @@
             </label>
            
 
-            <?php wp_nav_menu(array("container" => "nav")); ?>
+            <?php wp_nav_menu(array(
+                "menu" => "principal",
+                "container" => "nav")); ?>
         </header>
 </div>
