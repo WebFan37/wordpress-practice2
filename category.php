@@ -46,7 +46,7 @@
                 // Afficher les informations de la catégorie
                 echo '<div class = "destinations">';
                 echo '<div class = "carte">';
-                echo '<h2>' . $cat_name .'<br>'. $cat_count. '</h2>';
+                echo '<h2>' . $cat_name .': '. $cat_count. ' destinations'.'</h2>';
                 echo '<p>' . $cat_description . '</p>';
                 echo '<p><a href="' . $cat_link . '">Voir tous les articles de cette catégorie</a></p>';
                 echo '</div>';

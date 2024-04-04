@@ -394,27 +394,13 @@ h6 {
   color: rgb(255, 0, 255, var(--transparence--section));
 }
 
-button {
-  font-size: clamp(1.125rem, 0.5rem + 2vw, 1.875rem);
-  padding: 12px 24px;
-  position: absolute;
-  left: 20%;
-  bottom: 0;
-  background: linear-gradient(to right, rgb(255, 255, 187), rgb(136, 210, 213));
-  border-radius: 10px;
-  transition: transform 0.3s ease;
-}
-
-button:hover {
-  background: linear-gradient(rgb(194, 227, 194), rgb(95, 184, 211));
-  color: rgb(48, 102, 183);
-  transform: translateY(-10px);
-}
-
 a {
   background-color: var(--couleur--arrier-footer);
   color: yellow;
   text-decoration: none;
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 a:hover {
@@ -561,4 +547,22 @@ a:hover {
 
 #check-menu {
   display: none;
+}
+
+.recherche {
+  display: block;
+  justify-items: flex-end;
+}
+
+.recherche input[type=search] {
+  width: 20%;
+  height: 2rem;
+  border-radius: 10px;
+}
+
+button,
+[type=submit] {
+  width: 5%;
+  height: 2rem;
+  border-radius: 10px;
 }/*# sourceMappingURL=style.css.map */
