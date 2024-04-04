@@ -554,8 +554,4 @@ a:hover {
 #check-menu:checked ~ .menu-principal-container .menu {
   opacity: 1;
   transition: opacity 1s;
-}
-
-input {
-  display: none;
 }/*# sourceMappingURL=style.css.map */

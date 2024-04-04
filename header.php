@@ -15,6 +15,7 @@
     <div id="menu" class="global clr-agencement-primaire" >
     
         <header class="menu_header">
+            <?php get_search_form() ?>
             <?php echo get_custom_logo() ?>
             <input type="checkbox" name="" id="check-menu">
             
@@ -26,5 +27,8 @@
             <?php wp_nav_menu(array(
                 "menu" => "principal",
                 "container" => "nav")); ?>
+
+            
+            
         </header>
 </div>
