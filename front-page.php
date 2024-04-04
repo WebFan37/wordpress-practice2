@@ -37,21 +37,9 @@
     <div id="evenement" class="global diagonal">
        <section>
             <h2>CATÉGORIES</h2>
-            <p>C'est à vous de mettre des modifications dans la page ! </p>
+            <p> Cette page vous offre une vue globale sur les catégories incroyables dans le voyage ! Apprécie les ! N'oublie pas de cliquer pour visionner !</p>
 
-       </section>
-    
-        
-       
-    </div>
-    <div id="galerie" class="global diagonal">
-        <section>
-            <h2>Galerie</h2>
-        <p>Cette page vous offre une vue globale sur les catégories incroyables dans le voyage ! Apprécie les ! N'oublie pas de cliquer pour visionner !
-
-        </p>
-
-        <?php
+            <?php
         // Récupérer toutes les catégories
         $categories = get_categories();
 
@@ -77,6 +65,19 @@
             wp_reset_postdata();
         }
         ?>
+       </section>
+    
+        
+       
+    </div>
+    <div id="galerie" class="global diagonal">
+        <section>
+            <h2>Galerie</h2>
+        <p>
+            NOTRE HIGHTLIGHTS !
+        </p>
+
+        
 
        
         </section>
