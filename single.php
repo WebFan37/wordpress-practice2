@@ -2,6 +2,7 @@
 
     <div id="accueil" class="global">
         <section>
+            <h2>MORE IN DETAIL / PLUS EN DÉTAIL</h2>
             <div class="cours">   
                 <?php 
                 
