@@ -557,12 +557,13 @@ a:hover {
 .recherche input[type=search] {
   width: 20%;
   height: 2rem;
-  border-radius: 10px;
+  border-radius: 50px;
 }
 
 button,
 [type=submit] {
   width: 5%;
   height: 2rem;
-  border-radius: 10px;
+  border-radius: 50px;
+  background-color: var(--couleur--entete);
 }/*# sourceMappingURL=style.css.map */
