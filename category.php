@@ -27,12 +27,38 @@
     <div id="galerie" class="global">
         <section>
             <h2>Galerie</h2>
-            <h5>
-            Woohoo ! Vous êtes sur la page galerie
-        </h5>
-        <p>La page galerie vous offre une vue globale sur les photos le plus incroyable dans le voyage ! Apprécie les ! Ne manquer pas les évenements !
+            <p>
+                Cette page vous offre une vue globale sur les catégories incroyables dans le voyage ! Apprécie les ! N'oublie pas de cliquer pour visionner !
+            </p>
 
-        </p>
+            <?php
+            // Récupérer toutes les catégories
+            $categories = get_categories();
+
+            // Parcourir chaque catégorie
+            foreach ($categories as $category) {
+                // Récupérer les informations de la catégorie
+                $cat_name = $category->name;
+                $cat_description = wp_trim_words($category->description,20);
+                $cat_link = get_category_link($category->term_id);
+                $cat_count = $category->count;
+
+                // Afficher les informations de la catégorie
+                echo '<div class = "destinations">';
+                echo '<div class = "carte">';
+                echo '<h2>' . $cat_name .'<br>'. $cat_count. '</h2>';
+                echo '<p>' . $cat_description . '</p>';
+                echo '<p><a href="' . $cat_link . '">Voir tous les articles de cette catégorie</a></p>';
+                echo '</div>';
+                echo '</div>';
+                
+
+                // Réinitialiser la requête
+                wp_reset_postdata();
+            }
+            ?>
+            
+       
 
        
         </section>

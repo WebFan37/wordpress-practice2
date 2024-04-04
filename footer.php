@@ -3,8 +3,8 @@
         <?php get_template_part('composants-gabarit/curve'); ?>
         <footer class="footer_header ">
             <h2></h2>
-            <h6>MENU DE LA FIN</h6>
-            <p>Le menu de la fin du page vous offre des liens pour aller voir dans chaque catégories différentes</p>
+            <h6>MENU</h6>
+            <p>Voici des liens pour aller voir dans chaque catégories différentes</p>
             <div class="menu-fin">
                 <ul>
                     <li><a href="http://localhost/4W4/">HOME/ACCUEIL</a></li>

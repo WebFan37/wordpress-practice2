@@ -15,15 +15,7 @@
     <div id="accueil" class="global diagonal">
         <section>
             <h2>SEARCH RESULT / RÉSULTAT</h2>
-            <h3>
-            Woohoo ! Vous êtes sur la page d'accueil
-        </h3>
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero eos ad odit eius nulla quas voluptates tempora illum! Architecto blanditiis neque animi fugit quos nemo odio omnis ex praesentium modi?</p>
-       <a href="https://www.shapedivider.app/">Créer des formes personnalisé</a>
-       
-       <button class="button">
-        CLIQUER ICI !
-    </button>
+
         </section>
         
     </div>
@@ -62,9 +54,9 @@
         <section>
             <h2>Galerie</h2>
             <h5>
-            Woohoo ! Vous êtes sur la page galerie
+            Mettre votre propre texte ou des éléments ici
         </h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus vel perferendis laborum ipsum nesciunt dolorum. Voluptatem atque quos harum animi nihil corrupti sed, quae quam facilis a commodi eligendi.</p>
+        
 
        
         </section>
