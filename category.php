@@ -12,6 +12,7 @@
 
                     <div class="carte">
                         <h2><?php the_title(); ?></h2>
+                        <h2><?php the_post_thumbnail("medium")?></h2>
                         <p><?php echo wp_trim_words(get_the_content()); ?></p>
                         <?php echo "Catégorie: ",the_category(); ?><!---->
                         <a href="<?php the_permalink(); ?>">SAVOIR PLUS</a>
