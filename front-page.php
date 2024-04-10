@@ -21,7 +21,7 @@
                     while(have_posts()): the_post(); ?>
 
                     <div class="carte">
-                        <?php the_post_thumbnail() ?>
+                        <?php the_post_thumbnail("medium") ?>
                         <h2><?php the_title(); ?></h2>
                         <p><?php echo wp_trim_words(get_the_content()); ?></p>
                         <?php the_category(); ?>
