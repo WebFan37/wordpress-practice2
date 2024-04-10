@@ -459,7 +459,7 @@ a:hover {
   position: absolute;
   content: "";
   inset: 0;
-  background: linear-gradient(120deg, var(--couleur--arrier-diagonal), white);
+  background: linear-gradient(120deg, var(--couleur--arrier-diagonal), rgb(54, 100, 160));
   z-index: -1;
   transform: skewY(-4deg);
 }
