@@ -14,7 +14,7 @@ Text Domain: theme-Janne
 :root {
   /*==================*/
   /* TEINTE TECHNIQUE TRIADE */
-  --t1: 273;
+  --t1: 200;
   --t2: calc(var(--t1) + 120);
   --t3: calc(var(--t1) - 120);
   --t4: calc(var(--t1) + 60);
@@ -295,7 +295,7 @@ body {
   margin-top: 1rem;
   width: 100%;
   height: auto;
-  background-color: rgba(255, 156, 156, 0.43);
+  background-color: rgba(156, 209, 255, 0.43);
 }
 
 .menu-fin ul {
@@ -320,7 +320,7 @@ body {
   margin-top: 2rem;
   width: 80%;
   height: 4rem;
-  background-color: rgba(255, 156, 156, 0.711);
+  background-color: rgba(156, 206, 255, 0.711);
   border-radius: 50px;
 }
 

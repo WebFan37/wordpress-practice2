@@ -1,4 +1,4 @@
-<div id="footer" class="global bck-ternaire-400">
+<div id="footer" class="global clr-agencement-primaire">
         <!--CURVE HERE-->
         <?php get_template_part('composants-gabarit/curve'); ?>
         <footer class="footer_header ">
