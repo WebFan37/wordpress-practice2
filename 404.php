@@ -18,6 +18,10 @@
             <!--SEARCH FORM-->
             <?php get_search_form() ?>
 
+            <!--NAV MENU CATEGORY-->
+            <?php wp_nav_menu(array("menu" => "menu-category", "container" => "nav")); ?>
+
+
             <h3>
             <a href="<?php echo get_bloginfo("URL"); ?>"><?php echo get_bloginfo("name"); ?></a>
         </h3>
