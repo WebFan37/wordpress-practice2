@@ -11,7 +11,11 @@
             <p>
                 Pour revenir à la page d'accueil cliquer sur le lien suivant
             </p>
+            
+            <!--NAV MENU SIMPLE RETOUR ARRIER-->
+            <?php wp_nav_menu(array("menu" => "return-menu", "container" => "nav")); ?>
 
+            <!--SEARCH FORM-->
             <?php get_search_form() ?>
 
             <h3>
