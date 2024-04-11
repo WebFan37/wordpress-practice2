@@ -15,9 +15,10 @@
                 </p>
                 
                 
-                <h3>
+                <!-- <h3>
                 <a href="<?php echo get_bloginfo("URL"); ?>"><?php echo get_bloginfo("name"); ?></a>
-                </h3>
+                </h3> -->
+                <?php wp_nav_menu(array("menu" => "retour", "container" => "nav")); ?>
                 
                 <!--SEARCH FORM-->
                 <?php get_search_form() ?>

@@ -7,7 +7,7 @@
             <p>Voici des liens pour aller voir dans chaque catégories différentes</p>
             <div class="menu-fin">
                 <ul>
-                    <li><a href="http://localhost/4W4/">HOME/ACCUEIL</a></li>
+                    <li><a href="#">HOME/ACCUEIL</a></li>
                     <li><a href="#">Croisière</a></li>
                     <li><a href="#">Avions</a></li>
                     <li><a href="#">Helicoptère</a></li>
