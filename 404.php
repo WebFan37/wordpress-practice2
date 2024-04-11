@@ -14,9 +14,11 @@
                     Pour revenir à la page d'accueil cliquer sur le lien suivant
                 </p>
                 
-                <!--NAV MENU SIMPLE RETOUR ARRIER-->
-                <?php wp_nav_menu(array("menu" => "return-menu", "container" => "nav")); ?>
-
+                
+                <h3>
+                <a href="<?php echo get_bloginfo("URL"); ?>"><?php echo get_bloginfo("name"); ?></a>
+                </h3>
+                
                 <!--SEARCH FORM-->
                 <?php get_search_form() ?>
 
@@ -24,9 +26,7 @@
                 <?php wp_nav_menu(array("menu" => "menu-category", "container" => "nav")); ?>
 
 
-                <h3>
-                <a href="<?php echo get_bloginfo("URL"); ?>"><?php echo get_bloginfo("name"); ?></a>
-                </h3>
+                
             </div>
 
             <div class="image">
