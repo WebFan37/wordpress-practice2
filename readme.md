@@ -1,3 +1,4 @@
 # JANNE ZHANG ELLISON
-### Travail Pratique 1
-- Il consiste du code amélioré du Lab04 et Lab05. Les contenus sont déjà changés. 
+### Travail Pratique 2
+- Remplissage du page 404 erreur pour faciliter navigation
+- Lien pour le site WHC: 
