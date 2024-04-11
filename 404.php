@@ -5,6 +5,7 @@
 
             <div class="erreur">
                 <h2>Erreur 404</h2>
+                <h2>I GIVE UP... </h2>
 
                 <p>
                     Vous essayez d'accéder à une page qui n'existe pas. TEST TEST
