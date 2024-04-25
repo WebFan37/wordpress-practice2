@@ -26,6 +26,7 @@
                     ?>
                     <div class="carte">
                         <h2><?php echo $titre ?></h2>
+                        <h2><?php the_post_thumbnail("medium")?></h2>
                         <p><?php echo wp_trim_words(get_the_content(), 50); ?></p>
                         <a href="<?php echo get_permalink(); ?>">SUITE ...</a>
                                 
