@@ -26,6 +26,11 @@
 // ========================
 
 
+// ========================
+// MY GOOGLE MAPS API KEY: AIzaSyAH-QQKv0qmK7JzBK17LRKiUYXv_KbJUpI
+// ========================
+
+
 // Replace 'YOUR_API_KEY' with your actual API key
 $apiKey = '9ccef00f2f2511c770aa4a2c6f822eab';
 
