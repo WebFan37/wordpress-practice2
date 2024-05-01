@@ -21,6 +21,11 @@
                         
 
                         <?php
+// ========================
+// DISCLAIMER: CODE WRITTEN BY AI 🙄
+// ========================
+
+
 // Replace 'YOUR_API_KEY' with your actual API key
 $apiKey = '9ccef00f2f2511c770aa4a2c6f822eab';
 
@@ -46,7 +51,7 @@ if ($response !== false) {
         $description = $weatherData['weather'][0]['description'];
 
         // Output the weather information
-        echo "Temperature: " . $temperature . " K<br>";
+        echo "Temperature: " . ($temperature - 273.15) . "°C<br>";
         echo "Humidity: " . $humidity . "%<br>";
         echo "Description: " . $description;
     } else {
