@@ -51,13 +51,19 @@
                                 // Check if there are any errors in the response
                                 if (isset($weatherData['cod']) && $weatherData['cod'] == 200) {
                                     // Extract the weather information
+                                    $minTemperature = $weatherData['main']['temp_min'];
+                                    $maxTemperature = $weatherData['main']['temp_max'];
                                     $temperature = $weatherData['main']['temp'];
+                                    $avgTemperature = ($minTemperature + $maxTemperature) / 2;
                                     $humidity = $weatherData['main']['humidity'];
                                     $description = $weatherData['weather'][0]['description'];
 
                                     // Output the weather information
-                                    echo "Temperature: " . ($temperature - 273.15) . "°C<br>";
-                                    echo "Humidity: " . $humidity . "%<br>";
+                                    echo "Température minimum: " . ($minTemperature - 273.15) . "°C<br>";
+                                    echo "Température maximum: " . ($maxTemperature - 273.15) . "°C<br>";
+                                    echo "Température moyen: " . ($avgTemperature - 273.15) . "°C<br>";
+                                    echo "Température maintenant: " . ($temperature - 273.15) . "°C<br>";
+                                    echo "Humidité: " . $humidity . "%<br>";
                                     echo "Description: " . $description;
                                 } else {
                                     // Handle errors
