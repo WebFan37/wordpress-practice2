@@ -59,8 +59,8 @@
                                     $description = $weatherData['weather'][0]['description'];
 
                                     // Output the weather information
-                                    echo "Température minimum: " . ($minTemperature - 273.15) . "°C<br>";
-                                    echo "Température maximum: " . ($maxTemperature - 273.15) . "°C<br>";
+                                    echo "Température minimum: " . ($minTemperature - 273.15) . "°C";
+                                    echo "Température maximum: " . ($maxTemperature - 273.15) . "°C";
                                     echo "Température moyen: " . ($avgTemperature - 273.15) . "°C<br>";
                                     echo "Température maintenant: " . ($temperature - 273.15) . "°C<br>";
                                     echo "Humidité: " . $humidity . "%<br>";
