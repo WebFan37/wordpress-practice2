@@ -7,22 +7,24 @@
             <p>Voici des liens pour aller voir dans chaque catégories différentes</p>
             <div class="menu-fin">
                 <ul>
-                    <li><a href="#">HOME/ACCUEIL</a></li>
-                    <li><a href="#">Croisière</a></li>
-                    <li><a href="#">Avions</a></li>
-                    <li><a href="#">Helicoptère</a></li>
+                    <p>D'AUTRES AGENCE DE VOAYAGE</p>
+                    <li><a href="https://www.ncl.com/ca/en/?cid=PS_DIG_NA_BRC_GOO_NA_NA_NA_NA_NA_NAM&gad_source=1&gclid=CjwKCAjw_LOwBhBFEiwAmSEQAXLWt27nOzmO-9iWAqVvapHCT_Rxm29M5fRtg4XAT7k8FJ342qh7HBoCJ5MQAvD_BwE&gclsrc=aw.ds">CROISIÈRE NORWEGIAN</a></li>
+                    <li><a href="https://www.orbitz.com/">VOYAGE ORBITZ</a></li>
+                    <li><a href="https://www.orbitz.com/">VOYAGE AIR CANADA</a></li>
                 </ul>
                 <ul>
-                    <li><a href="#">Accès numérique</a></li>
-                    <li><a href="#">Accès papier</a></li>
-                    <li><a href="#">Accès invisible</a></li>
-                    <li><a href="#">Point</a></li>
+                    <li><?php get_search_form() ?></li>
+                    <li><a href="https://www.cmaisonneuve.qc.ca/campus-installations/trois-campus/3800-rue-sherbrooke/">Addresse: 3800 Rue Sherbrooke Est</a></li>
+                    <li><a href="https://www.facebook.com/CollegeMaisonneuve/?locale=fr_CA">FaceBook</a></li>
+                    <li><a href="https://www.instagram.com/collegemaisonneuve/">Instagram</a></li>
+                  
                 </ul>
                 <ul>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">YouTube</a></li>
-                    <li><a href="#">Snapchat</a></li>
+                    <li><a href="#">Janne Zhang Ellison</a></li>
+                    <li><a href="https://github.com/WebFan37/4W4-2024-gr1/tree/TP2">Addresse GitHub TP2</a></li>
+                    <li><p>DESCRIPTION: Ce Travail Pratique consiste un pratique dans l'application du SCSS, php 
+                        WordPress et les fonctionnalités du WordPress</p></li>
+    
                 </ul>
             </div>
 
@@ -34,4 +36,5 @@
     </div>
     <?php wp_footer() ?>
 </body>
+
 </html>

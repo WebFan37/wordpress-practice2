@@ -11,7 +11,8 @@
     margin-top: 1rem;
     width: 100%;
     height: auto;
-    background-color: rgba(156, 209, 255, 0.43);
+    background-color: rgba(130, 197, 255, 0.734);
+    border-radius: 15px;
 }
 .menu-fin ul{
     display: flex;
@@ -51,6 +52,8 @@
     .menu-fin{
         flex-direction: column;
         align-items: flex-start;
+        padding-left: 10px;
+
     }
     .menu-fin ul{
       align-items: flex-start;

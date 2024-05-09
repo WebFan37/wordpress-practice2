@@ -13,3 +13,21 @@ a:hover{
     color: rgb(255, 255, 255);
     background-color: var(--couleur--arrier-diagonal);
 }
+
+
+.menu-fin a{
+    color: white;
+    width: 300px;
+    height: 50px;
+}
+.menu-fin a:hover{
+    color: rgb(52, 70, 134);
+}
+.menu-fin p{
+    color: white;
+}
+#menu-footer a{
+    color: white;
+    width: 300px;
+    height: 50px;
+}

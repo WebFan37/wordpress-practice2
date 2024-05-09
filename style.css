@@ -295,7 +295,8 @@ body {
   margin-top: 1rem;
   width: 100%;
   height: auto;
-  background-color: rgba(156, 209, 255, 0.43);
+  background-color: rgba(130, 197, 255, 0.734);
+  border-radius: 15px;
 }
 
 .menu-fin ul {
@@ -334,6 +335,7 @@ body {
   .menu-fin {
     flex-direction: column;
     align-items: flex-start;
+    padding-left: 10px;
   }
   .menu-fin ul {
     align-items: flex-start;
@@ -406,6 +408,26 @@ a {
 a:hover {
   color: rgb(255, 255, 255);
   background-color: var(--couleur--arrier-diagonal);
+}
+
+.menu-fin a {
+  color: white;
+  width: 300px;
+  height: 50px;
+}
+
+.menu-fin a:hover {
+  color: rgb(52, 70, 134);
+}
+
+.menu-fin p {
+  color: white;
+}
+
+#menu-footer a {
+  color: white;
+  width: 300px;
+  height: 50px;
 }
 
 .vague {
