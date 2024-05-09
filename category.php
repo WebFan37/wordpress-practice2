@@ -28,9 +28,7 @@
     <div id="galerie" class="global">
         <section>
             <h2>CATÉGORIES</h2>
-            <p>
-                Cette page vous offre une vue globale sur les catégories incroyables dans le voyage ! Apprécie les ! N'oublie pas de cliquer pour visionner !
-            </p>
+        
 
             <?php
             // Récupérer toutes les catégories

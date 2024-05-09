@@ -505,19 +505,34 @@ a:hover {
   border-radius: 10px;
 }
 
+.carte img {
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
 /****************************************/
 /*  AJOUT D'ANIMATION DU HOVER SUR CHAQUE CARTE*/
 .carte:hover {
   transform: scale(1.08);
   transition: transform 0.5s;
+  animation: couleurChange 2s infinite;
 }
 
-.carte img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
+@keyframes couleurChange {
+  0% {
+    background-color: var(--couleur--arrier);
+  }
+  25% {
+    background-color: rgb(138, 193, 255);
+  }
+  50% {
+    background-color: rgb(85, 174, 252);
+  }
+  100% {
+    background-color: var(--couleur--arrier);
+  }
 }
-
+/****************************************/
 .post-categories {
   display: flex;
   list-style-type: none;

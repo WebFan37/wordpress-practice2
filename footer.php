@@ -3,8 +3,6 @@
         <?php get_template_part('composants-gabarit/curve'); ?>
         <footer class="footer_header ">
             <h2></h2>
-            <h6>MENU</h6>
-            <p>Voici des liens pour aller voir dans chaque catégories différentes</p>
             <div class="menu-fin">
                 <ul>
                     <p>D'AUTRES AGENCES DE VOYAGE</p>
