@@ -29,7 +29,7 @@
 .carte:hover{
     transform: scale(1.08);
     transition: transform 0.5s;
-    animation: couleurChange 2s infinite;
+    animation: couleurChange 2s 2;
 }
 
 
