@@ -297,7 +297,9 @@ body {
   height: auto;
   background-color: rgba(130, 197, 255, 0.734);
   border-radius: 15px;
-  padding: 10px;
+  padding-left: 7px;
+  padding-top: 7px;
+  padding-bottom: 15px;
 }
 
 .menu-fin ul {
@@ -399,7 +401,7 @@ h6 {
 
 a {
   background-color: var(--couleur--arrier-footer);
-  color: yellow;
+  color: white;
   text-decoration: none;
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
@@ -407,18 +409,8 @@ a {
 }
 
 a:hover {
-  color: rgb(255, 255, 255);
-  background-color: var(--couleur--arrier-diagonal);
-}
-
-.menu-fin a {
-  color: white;
-  width: 300px;
-  height: 50px;
-}
-
-.menu-fin a:hover {
   color: rgb(52, 70, 134);
+  background-color: var(--couleur--arrier-diagonal);
 }
 
 .menu-fin p {
@@ -525,9 +517,9 @@ a:hover {
   justify-content: space-evenly;
   align-items: center;
   list-style-type: none;
-  height: auto;
+  height: 35px;
   background-color: var(--couleur--arrier-footer);
-  border-radius: 10px;
+  border-radius: 50px;
 }
 @media (max-width: 700px) {
   .menu-principal-container .menu {
@@ -541,6 +533,7 @@ a:hover {
 }
 .menu-principal-container .menu-item {
   flex: 1 0 300px;
+  text-align: center;
 }
 @media screen and (min-width: 700px) {
   .menu-principal-container .menu-item {

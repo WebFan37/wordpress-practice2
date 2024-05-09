@@ -1,6 +1,6 @@
 a{
     background-color: var(--couleur--arrier-footer);
-    color: yellow;
+    color: white;
     text-decoration: none;
 
     font-family: "Work Sans", sans-serif;
@@ -10,18 +10,8 @@ a{
     
 }
 a:hover{
-    color: rgb(255, 255, 255);
-    background-color: var(--couleur--arrier-diagonal);
-}
-
-
-.menu-fin a{
-    color: white;
-    width: 300px;
-    height: 50px;
-}
-.menu-fin a:hover{
     color: rgb(52, 70, 134);
+    background-color: var(--couleur--arrier-diagonal);
 }
 .menu-fin p{
     color: white;
