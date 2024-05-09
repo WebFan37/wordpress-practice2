@@ -77,8 +77,7 @@
             NOTRE HIGHTLIGHTS !
         </p>
 
-        
-
+        <?php echo do_shortcode('[em_destination]'); ?>
        
         </section>
         
