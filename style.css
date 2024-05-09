@@ -425,6 +425,11 @@ a:hover {
   color: white;
 }
 
+.menu-fin span {
+  color: var(--couleur--arrier-footer);
+  font-weight: bold;
+}
+
 #menu-footer a {
   color: white;
   width: 300px;
