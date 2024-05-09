@@ -22,7 +22,7 @@
                 <ul>
                     <li><a href="https://github.com/WebFan37/4W4-2024-gr1/tree/TP2">Addresse GitHub TP2</a></li>
                     <li><p><span>AUTEUR</span>: Janne Zhang Ellison</p></li>
-                    <li><p><span>DESCRIPTION</span>: Ce Travail Pratique consiste un pratique dans l'application du SCSS, php 
+                    <li><p><span>DESCRIPTION</span>: Ce Travail Pratique consiste un pratique dans l'application du SCSS, php, 
                         WordPress et les fonctionnalités du WordPress</p></li>
     
                 </ul>
