@@ -10,7 +10,7 @@
                         
                        
                     ?>
-                    <div class="carte">
+                    <div class="carte-single">
                         <h2><?php the_title() ?></h2>
                         <h2><?php the_post_thumbnail("medium")?></h2>
                         <p><?php the_content(); ?></p>
@@ -84,15 +84,15 @@
             </div>
         </section>
     </div>
-    <div id="galerie" class="global">
+    <!-- <div id="galerie" class="global">
         <section>
             <h2>Galerie</h2>
-            <h5>
-            Mettre votre propre texte ou des éléments ici
-        </h5>
+            <?php 
+                get_template_part("composants-gabarit/categorie", "galerie"); 
+            ?>
         
        
         </section>
         
-    </div>
+    </div> -->
     <?php get_footer(); ?>
