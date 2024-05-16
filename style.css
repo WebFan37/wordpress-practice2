@@ -644,4 +644,13 @@ button,
 .wp-block-image:hover img {
   transform: scale(1.075);
   border: 0.5px solid #ffffff;
+}
+
+.contenu__restapi {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
 }/*# sourceMappingURL=style.css.map */
