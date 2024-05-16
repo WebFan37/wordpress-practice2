@@ -20,14 +20,19 @@
                 <?php if(have_posts()):
                     while(have_posts()): the_post(); ?>
 
-                    <div class="carte">
-                        <?php the_post_thumbnail("medium") ?>
-                        <h2><?php the_title(); ?></h2>
-                        <p><?php echo wp_trim_words(get_the_content()); ?></p>
-                        <?php the_category(); ?>
-                        <a href="<?php the_permalink(); ?>">SAVOIR PLUS</a>
-                    </div> 
-                
+                    <!-- NEW VARIABLE FOR CARTE -->
+                    <?php  
+
+                    //use in_category() to check if the post is in the category "galerie"
+                    //if it is, set the variable $ma_carte to "galerie"
+                        $ma_carte = "carte";
+                        if(in_category("galerie")) {
+                            $ma_carte = "galerie";
+                        }
+
+                        get_template_part("composants-gabarit/categorie", $ma_carte); 
+                    ?>
+                    
                     <?php endwhile ?>
                 <?php endif ?>
             </div>
