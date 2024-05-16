@@ -13,8 +13,8 @@
                 <ul>
                     <li><?php get_search_form() ?></li>
                     <li><a href="https://www.cmaisonneuve.qc.ca/campus-installations/trois-campus/3800-rue-sherbrooke/">Addresse: 3800 Rue Sherbrooke Est</a></li>
-                    <li><img src="https://s2.svgbox.net/materialui.svg?ic=facebook" width="28" height="28"><a href="https://www.facebook.com/CollegeMaisonneuve/?locale=fr_CA">FaceBook</a></li>
-                    <li><img src="https://s2.svgbox.net/social.svg?ic=instagram&color=000" width="28" height="28"><a href="https://www.instagram.com/collegemaisonneuve/">Instagram</a></li>
+                    <li><a href="https://www.facebook.com/CollegeMaisonneuve/?locale=fr_CA"><img src="https://s2.svgbox.net/materialui.svg?ic=facebook" width="28" height="28"></a></li>
+                    <li><a href="https://www.instagram.com/collegemaisonneuve/"><img src="https://s2.svgbox.net/social.svg?ic=instagram&color=000" width="28" height="28"></a></li>
                   
                 </ul>
                 <ul>

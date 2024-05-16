@@ -399,35 +399,6 @@ h6 {
   color: rgb(255, 0, 255, var(--transparence--section));
 }
 
-a {
-  background-color: var(--couleur--arrier-footer);
-  color: white;
-  text-decoration: none;
-  font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-}
-
-a:hover {
-  color: rgb(52, 70, 134);
-  background-color: var(--couleur--arrier-diagonal);
-}
-
-.menu-fin p {
-  color: white;
-}
-
-.menu-fin span {
-  color: var(--couleur--arrier-footer);
-  font-weight: bold;
-}
-
-#menu-footer a {
-  color: white;
-  width: 300px;
-  height: 50px;
-}
-
 .vague {
   position: absolute;
   bottom: 0;
@@ -644,13 +615,4 @@ button,
 .wp-block-image:hover img {
   transform: scale(1.075);
   border: 0.5px solid #ffffff;
-}
-
-.contenu__restapi {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin: 0 auto;
-  max-width: 1200px;
-  padding: 20px;
 }/*# sourceMappingURL=style.css.map */
