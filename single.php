@@ -59,12 +59,14 @@
                                     $description = $weatherData['weather'][0]['description'];
 
                                     // Output the weather information
-                                    echo "Température minimum: " . ($minTemperature - 273.15) . "°C";
-                                    echo "Température maximum: " . ($maxTemperature - 273.15) . "°C";
-                                    echo "Température moyen: " . ($avgTemperature - 273.15) . "°C<br>";
-                                    echo "Température maintenant: " . ($temperature - 273.15) . "°C<br>";
-                                    echo "Humidité: " . $humidity . "%<br>";
-                                    echo "Description: " . $description;
+                                    echo "<div class=weather-information>";
+                                    echo "<div>Température minimum: " . ($minTemperature - 273.15) . "°C </div>";
+                                    echo "<div>Température maximum: " . ($maxTemperature - 273.15) . "°C </div>";
+                                    echo "<div>Température moyen: " . ($avgTemperature - 273.15) . "°C </div>";
+                                    echo "<div>Température maintenant: " . ($temperature - 273.15) . "°C</div>";
+                                    echo "<div>Humidité: " . $humidity . "% </div>";
+                                    echo "<div>Description: " . $description . "</div>";
+                                    echo "</div>";
                                 } else {
                                     // Handle errors
                                     echo "Error: Unable to fetch weather data.";
