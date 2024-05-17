@@ -6,9 +6,19 @@
             <div class="menu-fin">
                 <ul>
                     <p>D'AUTRES AGENCES DE VOYAGE</p>
-                    <li><a href="https://www.ncl.com/ca/en/?cid=PS_DIG_NA_BRC_GOO_NA_NA_NA_NA_NA_NAM&gad_source=1&gclid=CjwKCAjw_LOwBhBFEiwAmSEQAXLWt27nOzmO-9iWAqVvapHCT_Rxm29M5fRtg4XAT7k8FJ342qh7HBoCJ5MQAvD_BwE&gclsrc=aw.ds">CROISIÈRE NORWEGIAN</a></li>
-                    <li><a href="https://www.orbitz.com/">VOYAGE ORBITZ</a></li>
-                    <li><a href="https://www.orbitz.com/">VOYAGE AIR CANADA</a></li>
+                    <li>
+                        <a href="https://www.ncl.com/ca/en/?cid=PS_DIG_NA_BRC_GOO_NA_NA_NA_NA_NA_NAM&gad_source=1&gclid=CjwKCAjw_LOwBhBFEiwAmSEQAXLWt27nOzmO-9iWAqVvapHCT_Rxm29M5fRtg4XAT7k8FJ342qh7HBoCJ5MQAvD_BwE&gclsrc=aw.ds">
+                        <img src="https://s2.svgbox.net/materialui.svg?ic=directions_boat&color=000" width="32" height="32">NCL</a>
+                    </li>
+                    <li>
+                        <a href="https://www.orbitz.com/">
+                        <img src="https://s2.svgbox.net/materialui.svg?ic=hotel&color=000" width="32" height="32">ORBITZ</a>
+                    </li>
+                    <li>
+                        <a href="https://www.orbitz.com/">
+                        <img src="https://s2.svgbox.net/materialui.svg?ic=airplanemode_active&color=000" width="32" height="32">AIR CANADA</a>
+                        
+                    </li>
                 </ul>
                 <ul>
                     <li><?php get_search_form() ?></li>
