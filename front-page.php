@@ -83,6 +83,9 @@
         </p>
 
         <?php echo do_shortcode('[em_destination]'); ?>
+
+
+        <button>Conférence</button>
        
         </section>
         
