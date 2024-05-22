@@ -264,6 +264,7 @@ body {
 
 .site__main {
   background-color: var(--couleur--arrier-accueil);
+  font-family: "Montserrat", sans-serif;
 }
 
 #footer {
