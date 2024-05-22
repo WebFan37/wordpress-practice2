@@ -6,6 +6,7 @@
         <header class="entete_header">
             <h1><?php echo get_bloginfo("name") ?></h1>
             <h2><?php echo get_bloginfo("description") ?></h2>
+            <a href="http://localhost/4W4/index.php/conference/" class="bouton-conference">Conférence</a>
             <!-- <h3>Conception d'interface et développement web</h3> -->
         </header>
         
@@ -85,7 +86,7 @@
         <?php echo do_shortcode('[em_destination]'); ?>
 
 
-        <button>Conférence</button>
+       
        
         </section>
         

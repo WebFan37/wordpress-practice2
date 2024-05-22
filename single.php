@@ -60,12 +60,16 @@
 
                                     // Output the weather information
                                     echo "<div class=weather-information>";
-                                    echo "<div>Température minimum: " . ($minTemperature - 273.15) . "°C </div>";
-                                    echo "<div>Température maximum: " . ($maxTemperature - 273.15) . "°C </div>";
-                                    echo "<div>Température moyen: " . ($avgTemperature - 273.15) . "°C </div>";
-                                    echo "<div>Température maintenant: " . ($temperature - 273.15) . "°C</div>";
+                                    echo "<div class=temperatures>";
+                                    echo "<div>Temp-min: " . ($minTemperature - 273.15) . "°C </div>";
+                                    echo "<div>Temp-max: " . ($maxTemperature - 273.15) . "°C </div>";
+                                    echo "<div>Temp-moyen: " . ($avgTemperature - 273.15) . "°C </div>";
+                                    echo "<div>Temp-maintenant: " . ($temperature - 273.15) . "°C</div>";
+                                    echo "</div>";
+                                    echo "<div class=other-weather>";
                                     echo "<div>Humidité: " . $humidity . "% </div>";
                                     echo "<div>Description: " . $description . "</div>";
+                                    echo "</div>";
                                     echo "</div>";
                                 } else {
                                     // Handle errors

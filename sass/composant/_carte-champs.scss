@@ -1,0 +1,24 @@
+div.weather-information {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+height: 80px;
+width: 100%;
+border-radius: 10px;
+
+ background-color: rgb(146, 210, 255);
+ color: black;
+ font-family: "Montserrat", sans-serif;
+ gap: 1rem;
+
+}
+
+.temperatures,
+.other-weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
