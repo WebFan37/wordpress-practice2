@@ -22,7 +22,8 @@
                 </ul>
                 <ul>
                     <li><?php get_search_form() ?></li>
-                    <li><a href="https://www.cmaisonneuve.qc.ca/campus-installations/trois-campus/3800-rue-sherbrooke/"><img src="https://s2.svgbox.net/materialui.svg?ic=place&color=000" width="32" height="32" color="000">3800 Rue Sherbrooke Est</a></li>
+                    <li><a href="https://www.cmaisonneuve.qc.ca/campus-installations/trois-campus/3800-rue-sherbrooke/"><img src="https://s2.svgbox.net/materialui.svg?ic=place&color=000" width="32" height="32">3800 Rue Sherbrooke Est</a></li>
+                    <li><a href=""><img src="https://s2.svgbox.net/materialui.svg?ic=email&color=000" width="32" height="32">communic@cmaisonneuve.qc.ca</a></li>
                     <li class="logo-social">
                         <a href="https://www.facebook.com/CollegeMaisonneuve/?locale=fr_CA"><img src="https://s2.svgbox.net/materialui.svg?ic=facebook" width="32" height="32"></a>
                         <a href="https://www.instagram.com/collegemaisonneuve/"><img src="https://s2.svgbox.net/social.svg?ic=instagram&color=000" width="32" height="32"></a>
@@ -42,9 +43,9 @@
                 </ul>
             </div>
 
-            <?php wp_nav_menu(array(
+            <!-- <?php wp_nav_menu(array(
                 "menu" => "footer",
-                "container" => "nav")); ?>
+                "container" => "nav")); ?> -->
         </footer>
         
     </div>

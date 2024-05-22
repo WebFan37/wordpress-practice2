@@ -92,9 +92,12 @@
             <?php 
                 get_template_part("composants-gabarit/categorie", "galerie"); 
             ?>
-        
+
+            
        
         </section>
         
     </div> -->
+
+    
     <?php get_footer(); ?>
