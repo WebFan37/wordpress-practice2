@@ -14,9 +14,7 @@
                         <h2><?php the_title() ?></h2>
                         <h2><?php the_post_thumbnail("medium")?></h2>
                         <p><?php the_content(); ?></p>
-                        <p>Min-Temp: <?php the_field("min-temp") ?></p>        
-                        <p>Max-Temp: <?php the_field("max-temp") ?></p>        
-                        <p>POSITION: <?php the_field("position") ?></p>  
+                        <div class="ville">Ville avoisinanate: <?php the_field("ville_avoisinante") ?></div>
                         
                         
 
