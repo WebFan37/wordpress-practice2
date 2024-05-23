@@ -39,24 +39,6 @@
        
         
     </div>
-    <div id="evenement" class="global diagonal">
-        
-        <!-- ANOTHER VAGUE GOES HERE -->
-        <?php get_template_part('composants-gabarit/vague3'); ?>
-       
-    </div>
-    <div id="galerie" class="global">
-        <section>
-            <h2>Galerie</h2>
-            <h5>
-            Mettre votre propre texte ou des éléments ici
-        </h5>
-        
-
-       
-        </section>
-        
-    </div>
     <?php get_footer(); ?>
 </body>
 </html>
