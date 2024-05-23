@@ -3,9 +3,6 @@
     <div id="entete" class="global">
         <header class="entete_header">
             <h1>RECHERCHE</h1>
-            <h2></h2>
-            <h3></h3>
-            
         </header>
         
     <!--ICI POUR LA VAGUE-->
