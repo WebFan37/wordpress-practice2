@@ -311,7 +311,6 @@ body {
   margin-top: 1rem;
   width: 100%;
   height: auto;
-  background-color: rgba(130, 197, 255, 0.734);
   border-radius: 15px;
   padding-left: 7px;
   padding-top: 7px;
@@ -345,8 +344,11 @@ body {
 }
 
 .logo-social {
+  background-color: aliceblue;
   display: flex;
   justify-content: space-around;
+  margin-top: 1rem;
+  border-radius: 7px;
 }
 
 @media screen and (max-width: 700px) {
@@ -360,9 +362,6 @@ body {
     flex-direction: column;
     align-items: flex-start;
     padding-left: 10px;
-  }
-  .menu-fin ul {
-    align-items: flex-start;
   }
   #menu-footer {
     flex-direction: column;
