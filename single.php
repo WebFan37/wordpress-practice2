@@ -88,18 +88,19 @@
             </div>
         </section>
     </div>
-    <!-- <div id="galerie" class="global">
+    <div id="galerie" class="global">
         <section>
             <h2>Galerie</h2>
             <?php 
-                get_template_part("composants-gabarit/categorie", "galerie"); 
+                echo do_shortcode('[em_destination]'); 
             ?>
+            
 
             
        
         </section>
         
-    </div> -->
+    </div>
 
     
     <?php get_footer(); ?>
