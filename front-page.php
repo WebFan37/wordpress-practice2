@@ -27,6 +27,8 @@
                     //use in_category() to check if the post is in the category "galerie"
                     //if it is, set the variable $ma_carte to "galerie"
                         $ma_carte = "carte";
+
+                        //If post contain galerie
                         if(in_category("galerie")) {
                             $ma_carte = "galerie";
                         }
