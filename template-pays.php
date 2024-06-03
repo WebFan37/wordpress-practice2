@@ -1,24 +1,20 @@
+
+
+<?php
+/**
+ * Template name: Evenement
+ *
+ */
+?>
 <?php get_header(); ?>
-
-<!-- <h1>FRONT-PAGE TEST</h1> -->
-
-    <div id="pays" class="pays">
-        <section>
-            <h2>TEST</h2> 
-            
-            <div class="pays">
-               
-            </div>
-        </section>
-        
-    </div>
-   
-    <div id="galerie" class="global">
-        <section>
-           
-        </section>
-        
-    </div>
-
-    <?php get_footer(); ?>
+    <main class="pays">
+        <?php
+            if ( have_posts() ) : the_post(); ?>
+            <h1><?= get_the_title(); ?></h1>
+            <?php the_content();?>
+            <p>L'adresse de l'evénement: <?php the_field('adresse'); ?></p>
+            <p>La date et l'heure de l'événement: <?php the_field('date_et_heure'); ?></p>     
+            <?php endif;?>
+    </main><!-- #main -->
+<?php get_footer(); ?>
   
