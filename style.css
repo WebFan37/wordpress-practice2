@@ -270,6 +270,7 @@ body {
 .pays {
   background-color: var(--couleur--arrier-accueil);
   font-family: "Montserrat", sans-serif;
+  padding: 6rem;
 }
 
 #footer {
