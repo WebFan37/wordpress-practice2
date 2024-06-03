@@ -267,6 +267,11 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.pays {
+  background-color: var(--couleur--arrier-accueil);
+  font-family: "Montserrat", sans-serif;
+}
+
 #footer {
   color: var(--couleur--footer);
   position: relative;
