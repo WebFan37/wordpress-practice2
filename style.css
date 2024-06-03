@@ -491,6 +491,26 @@ a:hover {
   fill: var(--couleur--arrier-galerie);
 }
 
+.vague_pays {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.vague_pays svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 46px;
+}
+
+.vague_pays .shape-fill {
+  fill: #FFFFFF;
+}
+
 .digonal {
   position: relative;
   isolation: isolate;
